@@ -40,7 +40,7 @@ namespace MyFirstCoreApplication
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
